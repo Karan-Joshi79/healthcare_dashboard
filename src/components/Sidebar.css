@@ -75,11 +75,11 @@ ul li {
 .sidebar-title2 {
   padding-left: 60px;
 }
-@media (max-width: 768px) {
+@media (max-width: 768px min-width:390) {
   .sidebar {
     width: 100%;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
   }
 
   .sidebar-container {

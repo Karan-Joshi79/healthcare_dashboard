@@ -15,7 +15,7 @@ body {
     margin: 20px;
     background-color: white;
     border-radius: 30px;
-  height: 100vh;
+  height: auto;
 display: flex;
 
     flex-direction: column; /* Default mobile layout: sidebar on top */
