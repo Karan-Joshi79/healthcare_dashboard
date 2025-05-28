@@ -1,0 +1,219 @@
+.schedule-container {
+
+  padding: 20px;
+  background: #f5f8ff;
+
+  font-family: Arial, sans-serif;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+
+  color: #1f1f49;
+}
+
+.schedule-header {
+  padding-top: 10px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.header2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header2 p {
+  color: #3f4370;
+}
+
+.header-controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.avatar {
+  background: #00c2ff;
+  border-radius: 8px;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.add-btn {
+  background-color: #2f2faf;
+  color: white;
+  font-size: 20px;
+  border: none;
+  border-radius: 8px;
+  padding: 5px 12px;
+  cursor: pointer;
+}
+
+.calendar-grid {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.day-column {
+  padding: 10px;
+  border-radius: 12px;
+}
+
+
+.highlight-tuesday {
+  background-color: #f1efff;
+
+}
+
+.highlight-sunday {
+  background-color: #f5f8ff;
+  color: #a2a9af;
+}
+
+/* Common time slot base */
+.time-slot {
+  padding: 6px 10px;
+  margin: 4px 0;
+  text-align: center;
+  border-radius: 8px;
+  font-size: 13px;
+}
+
+
+.slot-active {
+  background-color: rgba(53, 53, 141, 255);
+  color: white;
+  font-weight: 600;
+}
+
+
+.slot-active-sun {
+  background-color: #6f6af8;
+  
+  color: #333;
+  font-weight: 500;
+}
+
+
+.slot-light {
+  background-color: #f4f9ff;
+  /* color: #333; */
+}
+
+
+.slot-sun-dull {
+  background-color: #f4f9ff;
+  color: #aaa;
+}
+
+
+.slot-empty {
+  background-color: #f2f2f2;
+  color: #aaa;
+  font-style: italic;
+}
+
+
+
+.appointments {
+  margin-top: 30px;
+  position: relative;
+}
+
+.appointment-card {
+  flex: 1;
+  padding: 15px;
+  border-radius: 25px;
+  color: #1f1f49;
+
+  gap: 10px;
+}
+
+.appointment-icon {
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+}
+
+.dentist {
+  width: 192px;
+  background-color: #2f329b;
+  color: white;
+  margin-right: 80px;
+}
+
+.doctor {
+  font-size: small;
+}
+
+.physio {
+  height: 85px;
+  position: absolute;
+  right: 0;
+  width: 295px;
+  background-color: #dae0f8;
+}
+
+.upcoming {
+  margin-top: 40px;
+}
+
+.section-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #15152b;
+}
+
+.day-label {
+  font-weight: bold;
+  margin: 10px 0 5px;
+  font-size: 10px;
+  color: #7a7d82;
+}
+
+.task-row {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.task-card {
+  height: 70px;
+  background-color: #e4e8fd;
+  padding: 25px 10px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+}
+
+.task-card2 {
+  height: 70px;
+  width: 200px;
+  background-color: #e4e8fd;
+  padding: 25px 35px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+
+
+}
+
+.task-title {
+  font-weight: 500;
+  margin: 0;
+}
+
+.task-time {
+  font-size: 13px;
+  color: #21213b;
+  margin: 0;
+}

@@ -1,0 +1,32 @@
+.activity-chart {
+ background-color:#f5f8ff;
+    padding: 10px 15px;
+    border-radius: 20px;
+    /* box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05); */
+    margin-top: -5px;
+
+}
+
+.week {
+    display: flex
+;
+    justify-content: space-between;
+   
+    gap: 230px;
+    margin-bottom: 5px;
+}
+
+.activity-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: #2c3e50;
+  margin: 0;
+}
+
+.activity-sub {
+  font-size: 11px;
+  color: #7f8c8d;
+  margin: 0;
+}
+
+

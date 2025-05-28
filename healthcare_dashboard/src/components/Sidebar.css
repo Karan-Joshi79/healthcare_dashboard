@@ -1,0 +1,75 @@
+.sidebar {
+      margin-left: 10px;
+    width: 280px;
+    
+    padding: 13px 20px;
+    
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+    display: flex
+;
+    align-items: center;
+    flex-direction: column;
+}
+.sidebar-container{
+ background-color: #f5f8ff;
+     padding: 40px 35px 75px 20px;
+ border-top-left-radius: 20px;
+ border-bottom-left-radius: 20px;
+
+}
+.logo {
+  font-size: 1.95rem;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color:#f5f8ff;
+}
+
+.logo-health {
+  color:#37cdd4; 
+
+padding-left: 60px; 
+}
+
+.logo-care {
+  color: #3b3b73; 
+}
+ul{
+  list-style: none;
+  padding: 20px 0 0 60px;
+  margin: 0;
+  display: flex;
+  gap: 25px;
+  flex-direction: column;
+  
+}
+
+
+.open {
+  color:#3b3b73;
+  font-weight: bold;
+}
+h2{
+  color: #dde0e5;
+  font-size: .85rem;
+  padding: 40px 50px 0 60px;
+}
+ul li{
+  color:#b8bdc1 ;
+  gap: 10px;
+  font: .85em sans-serif;
+}
+.set{
+  padding-top: 80px;
+}
+.icon{
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+.foot{
+  padding-right: 40px;
+}
+.sidebar-title2{
+padding-left: 60px;
+}
