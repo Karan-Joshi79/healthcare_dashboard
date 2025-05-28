@@ -1,3 +1,6 @@
+
+
+
 * {
     margin: 0;
     padding: 0;
@@ -7,95 +10,22 @@
 body {
     background-color: #dbe9f6;
 }
-.app-container{
-    margin:20px ;
+
+.app-container {
+    margin: 20px;
     background-color: white;
-    border-radius:30px;
-    height:auto;
-    display: flex;
-    flex-direction: column;
-    
-    
-}
-/* Global responsive adjustments */
-@media screen and (max-width: 1200px) {
-  .dashboard {
-    flex-direction: column;
-    align-items: flex-start;
-    left: 50px;
-    top: 10px;
-  }
+    border-radius: 30px;
+  height: 100vh;
+display: flex;
 
-  .section1, .section2 {
-    width: 100%;
-  }
-
-  .search-bar {
-    width: 100%;
-    margin-left: 0;
-  }
-
-  .cards {
-    flex-direction: column;
-    align-items: center;
-    right: 0;
-    gap: 20px;
-  }
-
-  .activity {
-    flex-direction: column;
-    gap: 20px;
-    margin-top: 20px;
-    width: 100%;
-    margin-left: 0;
-  }
-
-  .calendar-section {
-    width: 100%;
-    margin-left: 0;
-  }
+    flex-direction: column; /* Default mobile layout: sidebar on top */
 }
 
-@media screen and (max-width: 768px) {
-  .card1 {
-    width: 90%;
-  }
-
-  .schedule-container {
-    width: 100%;
-    padding: 15px;
-  }
-
-  .appointments {
-    flex-direction: column;
-  }
-
-  .appointment-card {
-    width: 100%;
-  }
-
-  .calendar-grid {
-    flex-direction: column;
-  }
-
-  .sidebar {
-    width: 100%;
-    flex-direction: row;
-    flex-wrap: wrap;
-    padding: 10px;
-  }
-
-  .sidebar-container {
-    width: 100%;
-    border-radius: 0;
-    padding: 20px;
-  }
-
-  .logo {
-    font-size: 1.5rem;
-    padding-left: 20px;
-  }
+/* Desktop/Tablet View */
+@media (min-width: 768px) {
+    .app-container {
+        flex-direction: row; /* Sidebar on left, dashboard on right */
+    }
 }
-
 
 
